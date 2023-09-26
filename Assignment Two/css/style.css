@@ -1,0 +1,95 @@
+/* Add all css styling here */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+p {
+  font-weight: normal;
+}
+p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.body-text {
+  letter-spacing: 2px;
+  font-size: 12px; 
+  line-height: 1.5; 
+}
+
+.mask {
+  background-image: url('../img/lion.png'); 
+  background-repeat: no-repeat; 
+  background-position: top left; 
+  background-size: cover;
+   width: 400px; 
+  height: 200px;
+}
+
+.sad {
+    font-style: italic;
+    color: #0000FF; /* Blue for sadness */
+}
+
+.angry {
+    text-transform: uppercase;
+    color: #FF0000; /* Red for anger */
+}
+
+.final {
+	font-family: Brush Script MT;
+    color: #FFD700; 
+	font-size: 24px;
+}
+
+.contrast-text {
+  background-color: lightskyblue; 
+  color: black;
+  text-align: left; 
+  padding: 20px; 
+}
+
+.contrast-text h3 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+  font-size: 18px;
+}
+
+.title {
+  letter-spacing: 2px; 
+  font-size: 18px; 
+  text-align: left; 
+}
+
+.title-row {
+  color: Green;
+  letter-spacing: 2px; 
+  font-size: 18px; 
+  text-align: left; 
+}
+
+.with-spacing {
+  letter-spacing: 2px; 
+  font-size: 18px; 
+  text-align: left; 
+}
+
+.with-kerning {
+  font-kerning: auto; 
+  font-size: 18px; 
+  text-align: left; 
+}
